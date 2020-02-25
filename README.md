@@ -1,3 +1,3 @@
-# portfolio-v2
+# My Portfolio 2020
 
-[Demo](https://cagonzales.github.io/portfolio-v2)
+[View demo](https://johndoenma.github.io/myportfolio2020/)
