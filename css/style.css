@@ -44,6 +44,14 @@ h1,h2,h3 { font-weight: normal; }
 
 p { max-width: 35em; }
 
+@media (min-width: 768px){
+p.two-col {
+  column-count: 2;
+  column-gap: 4em;
+  max-width: 50em;
+  }
+}
+
 a {
   color: rgba(0, 0, 0, 0.8);
   text-decoration: none;
@@ -95,6 +103,7 @@ img.circular {
 
 /* LAYOUT */
 .container {
+  width: 100%;
   max-width: 1000px;
   margin: 0 auto;
 }
@@ -132,6 +141,29 @@ img.circular {
   }
 
 }
+
+/* BESPOKE GRID SYSTEM */
+/* .row {
+  display: grid;
+  grid-template-columns: repeat (auto, 1fr);
+  grid-column-gap: 2em;
+  justify-content: center;
+  align-items: center;
+} */
+
+.row {
+  display: flex;
+  align-items: center;
+
+}
+
+.col {
+  margin: 2%;
+}
+
+.half { width: 46%;}
+.third {width: 29.3333%;}
+.two-thirds {width: 62.6666%;}
 
 /* STRUCTURE */
 
@@ -233,11 +265,35 @@ section {
 
 }
 
+/* ABOUT PAGE */
+
+body .about {
+  background-color: rgba(200,200,200,1);
+}
+
+/* PROJECT PAGE */
+body.project main {
+  padding: 0;
+  background-color: rgba(255,255,255,1);
+}
+
+body.project section {
+  width: 100%;
+  padding: 0;
+}
+
+.hero {
+  background-color: rgba(221,221,221,1);
+}
+
+.hero.mybook {
+  background-color: rgb(52, 82, 39);
+}
 
 
 /* SUB PAGE: PROJECT DETAIL PAGES */
 
-.page-projectdetail {
+/* .page-projectdetail {
   max-width: none;
   margin: 0;
   padding: 0;
@@ -296,7 +352,7 @@ section {
     columns: 2;
   }
 
-}
+} */
 
 /* @KEYFRAME ANIMATIONS */
 @keyframes fade-in-and-down {
