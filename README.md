@@ -1,3 +1,3 @@
 # My Portfolio 2020
 
-[View demo](https://cagg.github.io/portfolio-v2/)
+[View demo](https://cagonzales.github.io/portfolio-v2/)
