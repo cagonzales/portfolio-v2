@@ -1,5 +1,6 @@
 .site-header{
   padding: 1em;
+  margin-left: 5em;
 }
 
 .site-header.sticky {
@@ -12,27 +13,53 @@
 
 
 h1{
-  font-size: 24px;
+  font-size: 18px;
 /* margin creates space between elements   */
   margin-bottom: 5px;
-  color: #ffffff;
+  
   font-family: all-round-gothic, sans-serif;
-  font-weight: 400;
+  font-weight: 300;
     font-style: normal;
-    font-size: 1.5em;
+   
 }
 
+h2{
+  font-family: 'merriweather';
+  font-weight: 300;
+    font-style: normal;
+    font-size: 30px;
+    text-align: center;
 
+    padding-top: 5em;
+    /* padding-right: 3em; */
+    text-align: center;
+    position: relative;
+    color: #0e0e0e;
+}
 
-body {
+h3{
+  font-family: roboto, sans-serif;
+  font-weight: 700;
+    font-style: normal;
+    font-size: 70px;
+    text-align: center;
+
+    padding-top: 2.5em;
+    /* padding-right: 3em; */
+    text-align: center;
+    position: relative;
+    color: #ffffff;
+}
+
+/* body {
   font-family: Roboto;
   font-size: 16px;
   color: #ffffff;
-  background-color: coral;
-}
+  background-color: rgb(204, 204, 204);
+} */
 
 a{
-  color: #ffffff;
+  color: #0c0c0c;
   text-decoration: none;
 }
 
@@ -47,6 +74,7 @@ footer{
   position: fixed;
   bottom: 20px;
   left: 20px;
+  margin-left: 5em;
 }
 
 footer a{
@@ -54,30 +82,38 @@ footer a{
 }
 
 a:hover{
-  color: #dddddd;
+  color: #33606b;
 }
 
 
 .image_1{
   background-image: url(../img/LunarBeans_2.jpg);
    opacity: 0.91;
-   width: 80%;
+  margin-right: 5em;
+  margin-left: 5em;
    margin-bottom: 10em;
+
 }
 
 .image_2{
-  background-image: url(../img/gala2.png);
+  background-image: url(../img/TerraBlue.png);
    opacity: 0.93;
   color: black;
+  margin-right: 5em;
+  margin-left: 5em;
   margin-bottom: 10em;
 }
 
 .image_3{
-  background-image: url(../img/havana-poster.png);
+  background-image: url(../img/gala2.png);
+  margin-right: 5em;
+  margin-left: 5em;
 }
 
 .image_4{
-  background-image: url(lb2.png);
+  background-image: url(../img/other.png);
+  margin-right: 5em;
+  margin-left: 5em;
 }
 
 
@@ -88,7 +124,7 @@ a:hover{
   position: relative;
   font-size: 70px;
   font-weight: 700;
-  color: coral;
+  
 }
 
 .text2 {
@@ -101,3 +137,18 @@ a:hover{
 }
 
 
+.image_1:hover {
+  filter: grayscale(70%);
+}
+
+.image_2:hover {
+  filter: grayscale(70%);
+}
+
+.image_3:hover {
+  filter: grayscale(70%);
+}
+
+.image_4:hover {
+  filter: grayscale(70%);
+}
