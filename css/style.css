@@ -11,6 +11,10 @@
 
 }
 
+body {
+  background-image:url(../img/menu.svg);
+}
+
 
 h1{
   font-size: 18px;
@@ -124,7 +128,7 @@ a:hover{
   position: relative;
   font-size: 70px;
   font-weight: 700;
-  
+
 }
 
 .text2 {
