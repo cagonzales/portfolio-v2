@@ -1,8 +1,9 @@
 body { margin: 0; }
-* { box-sizing: border-box; }
+* { box-sizing: border-box;
+  background-image:url(../img/dots.svg); }
 .site-header{
   padding: 1em;
-  /* margin-left: 5em; */
+  margin-left: 5em;
 }
 
 .site-header.sticky {
