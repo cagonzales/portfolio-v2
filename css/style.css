@@ -1,12 +1,12 @@
 body { margin: 0; }
 * { box-sizing: border-box;
-  background-image:url(../img/menu.svg); }
+  /* background-image:url(../img/dots.svg);*/ } 
 .site-header{
   padding: 1em;
 }
 
 .site-header h1 {
-  margin-left: 5em;
+  margin-left: 3.2em;
 }
 
 .site-header.sticky {
@@ -81,6 +81,10 @@ a{
   background: white;
 }
 
+.site-footer h1 {
+  margin-left: 3.2 em;
+}
+
 footer a{
   margin-right: 5px;
 }
@@ -99,6 +103,7 @@ a:hover{
 }
 .hero {
   background-image: url(../img/taro-cover.png);
+  
   background-size: cover;
   background-position: center;
 }
