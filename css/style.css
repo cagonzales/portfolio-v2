@@ -1,6 +1,8 @@
+body { margin: 0; }
+* { box-sizing: border-box; }
 .site-header{
   padding: 1em;
-  margin-left: 5em;
+  /* margin-left: 5em; */
 }
 
 .site-header.sticky {
@@ -8,11 +10,7 @@
   width: 100%;
   top: 0;
   z-index: 100;
-
-}
-
-body {
-  background-image:url(../img/menu.svg);
+  background: white;
 }
 
 
@@ -47,8 +45,8 @@ h3{
     font-style: normal;
     font-size: 70px;
     text-align: center;
-
-    padding-top: 2.5em;
+    margin: 0;
+    /* padding-top: 2.5em; */
     /* padding-right: 3em; */
     text-align: center;
     position: relative;
@@ -67,18 +65,16 @@ a{
   text-decoration: none;
 }
 
-section{
-  height: 80vh;
-  background-size: cover;
-  background-attachment: fixed;
-}
 
 
-footer{
+
+.site-footer{
   position: fixed;
-  bottom: 20px;
-  left: 20px;
-  margin-left: 5em;
+  width: 100%;
+  bottom: 0;
+  padding: 1em;
+  /* margin-left: 5em; */
+  background: white;
 }
 
 footer a{
@@ -89,35 +85,35 @@ a:hover{
   color: #33606b;
 }
 
+.parallax-bg{
+  height: 80vh;
+  background-size: cover;
+  background-attachment: fixed;
+  margin: 5vw;
+  display: grid;
+  place-items: center;
+}
+.hero {
+  background-image: url(../img/taro-cover.png);
+  background-size: cover;
+  background-position: center;
+}
 
 .image_1{
   background-image: url(../img/LunarBeans_2.jpg);
-   opacity: 0.91;
-  margin-right: 5em;
-  margin-left: 5em;
-   margin-bottom: 10em;
 
 }
 
 .image_2{
   background-image: url(../img/TerraBlue.png);
-   opacity: 0.93;
-  color: black;
-  margin-right: 5em;
-  margin-left: 5em;
-  margin-bottom: 10em;
 }
 
 .image_3{
   background-image: url(../img/gala2.png);
-  margin-right: 5em;
-  margin-left: 5em;
 }
 
 .image_4{
   background-image: url(../img/other.png);
-  margin-right: 5em;
-  margin-left: 5em;
 }
 
 
@@ -128,7 +124,7 @@ a:hover{
   position: relative;
   font-size: 70px;
   font-weight: 700;
-
+  
 }
 
 .text2 {
