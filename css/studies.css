@@ -41,9 +41,7 @@ body {
 
 h1{
   font-size: 18px;
-/* margin creates space between elements   */
   margin-bottom: 5px;
-  
   font-family: 'all-round-gothic', sans-serif;
   font-weight: 300;
     font-style: normal;
@@ -71,7 +69,7 @@ body {
   font-size: 100%;
   line-height: 1.4;
   color: rgba(17, 17, 17, 0.81); 
-background-image:url(../img/menu.svg);
+  background-image:url(../img/menu.svg);
 }
 
 a{
@@ -86,7 +84,7 @@ a:hover{
 
 
 /* HELPER */
-.sectionhead {
+/* .sectionhead {
   font-family: "kepler-std", georgia, serif;
   text-align: center;
   line-height: 1;
@@ -98,11 +96,11 @@ a:hover{
   content: "";
   width: 50px;
   border: 4px solid #000001;
-  margin: 1em auto 6em auto; }
+  margin: 1em auto 6em auto; } */
 
 
 /* TYPE SPECIMEN */
-.mainhead {
+/* .mainhead {
   font-size: 6em;
   color: #000001;
   margin-bottom: 0; }
@@ -110,7 +108,7 @@ a:hover{
 .subhead {
   font-family: "merriweather", georgia, serif;
   color: rgba 0, 0, 0, 0.5;
-  margin-bottom: 1em; }
+  margin-bottom: 1em; } */
 
 /*  #BUTTONS  */
 button, .button {
@@ -229,36 +227,11 @@ body {
   padding: 1em;
   text-align: center; }
 
-/* site header */
-/* .site-header, .site-footer {
-  background-color: #000001;
-  position: absolute;
-  width: 100%;
-  padding: 1em;
-  color: #ffffff;
-  display: -webkit-box;
-  display: -ms-flexbox;
-  display: flex;
-  -webkit-box-pack: justify;
-  -ms-flex-pack: justify;
-  justify-content: space-between; }
-  .site-header h1, .site-footer h1 {
-    font-family: "roboto", Helvetica, arial, sans-serif;
-    font-size: 1.5em;
-    margin: 0.5em 0 0 0; }
-  .site-header a, .site-footer a {
-    color: #fff;
-    text-decoration: none; } */
 
-/* Site Header */
-/* .site-header {
-  background-color: transparent;
-  position: absolute;
-  width: 100%; } */
 
   .site-header{
     padding: 1em;
-    margin-left: 5em;
+    margin-left: 3em;
   }
   
   .site-header.sticky {
@@ -383,7 +356,7 @@ body {
 .menu-button.navicon {
   font-size: 1.75em;
   top: 1em;
-  right: 1em;
+  right: 2.5em;
   text-align: center;
   width: 1em;
   height: 1em;
@@ -404,8 +377,8 @@ body {
   transition: .2s all ease-out; }
 
 section {
-  padding: 6em 0;
-  min-height: 100vh;
+  /* padding: 6em 0; */
+  /* min-height: 100vh; */
   display: -ms-grid;
   display: grid;
   place-items: center; }
@@ -413,12 +386,27 @@ section {
 /* Hero Sections */
 .hero {
   background-color: #000001;
-  padding: 6em 1em;
+  margin: 5vw;
+  background-size: cover;
+  background-position: center;
+  /* padding: 6em 1em; */
   text-align: center;
   color: #fff; }
-  .hero p {
-    margin-left: auto;
-    margin-right: auto; }
+
+  .hero h2{
+    font-family: 'merriweather';
+    font-weight: 300;
+      font-style: normal;
+      font-size: 30px;
+      text-align: center;
+  
+      padding-top: 5em;
+      /* padding-right: 3em; */
+      text-align: center;
+      position: relative;
+      color: #0e0e0e;
+  }
+
 
 /* Layout Section */
 @media (min-width: 768px) {
@@ -520,3 +508,69 @@ section {
   -webkit-transform: translateX(5em);
   -ms-transform: translateX(5em);
   transform: translateX(5em); }
+
+
+
+
+  .parallax-bg{
+    height: 80vh;
+    background-size: cover;
+    background-attachment: fixed;
+    margin: 5vw;
+    display: grid;
+    place-items: center;
+  }
+  
+  .image_1{
+    background-image: url(../img/LunarBeans_2.jpg);
+  
+  }
+  
+  .image_2{
+    background-image: url(../img/TerraBlue.png);
+  }
+  
+  .image_3{
+    background-image: url(../img/gala2.png);
+  }
+  
+  .image_4{
+    background-image: url(../img/other.png);
+  }
+  
+  
+  .text1 {
+    padding-top: 5em;
+    /* padding-right: 3em; */
+    text-align: center;
+    position: relative;
+    font-size: 70px;
+    font-weight: 700;
+    
+  }
+  
+  .text2 {
+    padding-top: 5em;
+    /* padding-left: 3em; */
+    text-align: center;
+    position: relative;
+    font-size: 60px;
+    font-weight: 700;
+  }
+  
+  
+  .image_1:hover {
+    filter: grayscale(70%);
+  }
+  
+  .image_2:hover {
+    filter: grayscale(70%);
+  }
+  
+  .image_3:hover {
+    filter: grayscale(70%);
+  }
+  
+  .image_4:hover {
+    filter: grayscale(70%);
+  }
