@@ -336,22 +336,26 @@ header.scrolled {
         -o-transition-delay: 0;
         transition-delay: 0; }
       .site-header .site-nav.active li:nth-child(2) {
-        -webkit-transition-delay: .2s;
-        -o-transition-delay: .2s;
-        transition-delay: .2s; }
+        -webkit-transition-delay: .1s;
+        -o-transition-delay: .1s;
+        transition-delay: .1s; }
       .site-header .site-nav.active li:nth-child(3) {
-        -webkit-transition-delay: .4s;
-        -o-transition-delay: .4s;
-        transition-delay: .4s; }
-        .site-header .site-nav.active li:nth-child(4) {
-          -webkit-transition-delay: .6s;
-          -o-transition-delay: .6s;
-          transition-delay: .6s; }
+        -webkit-transition-delay: .3s;
+        -o-transition-delay: .3s;
+        transition-delay: .3s; }
+      .site-header .site-nav.active li:nth-child(4) {
+        -webkit-transition-delay: .5s;
+        -o-transition-delay: .5s;
+        transition-delay: .5s; }
       
-          .site-header .site-nav.active li:nth-child(5) {
-            -webkit-transition-delay: .8s;
-            -o-transition-delay: .8s;
-            transition-delay: .8s; }
+      .site-header .site-nav.active li:nth-child(5) {
+        -webkit-transition-delay: .7s;
+        -o-transition-delay: .7s;
+        transition-delay: .7s; }
+      .site-header .site-nav.active li:nth-child(6) {
+        -webkit-transition-delay: .9s;
+        -o-transition-delay: .9s;
+        transition-delay: .9s; }
 
 .site-footer .site-nav ul {
   display: -webkit-box;
