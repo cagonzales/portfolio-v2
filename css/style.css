@@ -1,5 +1,8 @@
-body { margin: 0;
-  background-image:url(../img/dots.svg); }
+body { 
+  margin: 0;
+  background-image:url(../img/dots.svg); 
+}
+
 * { box-sizing: border-box;
    } 
 
