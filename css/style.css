@@ -322,9 +322,12 @@ header.scrolled {
     -ms-transform: translateY(-30px);
     transform: translateY(-30px); }
 
-  .site-header .site-nav a {
-    display: block;
-    padding: .5em; }
+    .site-header .site-nav a {
+      display: none;}
+
+      .site-header .site-nav.active a {
+        display: block;
+        padding: .5em; }
 
   .site-header .site-nav.active {
     position: fixed;
@@ -345,9 +348,7 @@ header.scrolled {
       -ms-transform: translateY(0);
       transform: translateY(0); }
 
-      .site-nav.inactive li{
-        display: none;
-      }
+    
       .site-header .site-nav.active li:nth-child(1) {
         -webkit-transition-delay: 0;
         -o-transition-delay: 0;
