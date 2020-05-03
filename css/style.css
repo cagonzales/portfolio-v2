@@ -14,7 +14,7 @@ CSS TABLE OF CONTENTS
     # LINKS
     # BUTTONS
     # MEDIA
-        #I MG
+        #IMG
     # LAYOUT
         # MEDIA QUERIES
         # CONTAINER
@@ -74,6 +74,9 @@ h2 {
       text-align: center;
       position: relative;
       color: #ffffff;
+      /* -webkit-text-stroke: .3px black; */
+
+  text-shadow: 1px 1px 1px rgb(148, 148, 148);
   }
 
 p {
@@ -162,6 +165,8 @@ button, .button {
 img {
   max-width: 100%;
   height: auto; }
+
+
 
 * {
   -webkit-box-sizing: border-box;
@@ -387,7 +392,7 @@ header.scrolled {
     display: inline-block;
     width: 1em;
     height: 1em;
-    content: "\2630"; }
+    content: "\2630";}
 
 .active .menu-button.navicon:before {
   content: "\2715";
@@ -413,7 +418,9 @@ section {
   background-position: center;
   /* padding: 6em 1em; */
   text-align: center;
-  color: #fff; }
+  color: #fff; 
+}
+  
 
   .hero h2{
     font-family: 'merriweather';
@@ -541,7 +548,16 @@ section {
     margin: 5vw;
     display: grid;
     place-items: center;
-  }
+    transform: scale(1);
+    transition: all .5s ease; 
+    } 
+    
+     .parallax-bg:hover { 
+      transform: scale(1.1);
+      opacity: 80%;
+      filter: grayscale(5%);
+    } 
+   
   
   .image_1{
     background-image: url(../img/LunarBeans_2.jpg);
@@ -581,18 +597,3 @@ section {
   }
   
   
-  .image_1:hover {
-    filter: grayscale(70%);
-  }
-  
-  .image_2:hover {
-    filter: grayscale(70%);
-  }
-  
-  .image_3:hover {
-    filter: grayscale(70%);
-  }
-  
-  .image_4:hover {
-    filter: grayscale(70%);
-  }
