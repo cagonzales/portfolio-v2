@@ -254,7 +254,7 @@ header.scrolled {
 
   .site-header{
     padding: 1em;
-    /* margin-left: 3em; */
+    padding-left: 4em;
   }
   
   .site-header.sticky {
@@ -285,6 +285,8 @@ header.scrolled {
   }
 
 /* Site Navigation */
+
+
 
 .site-nav ul li:hover {
   text-decoration:line-through;
