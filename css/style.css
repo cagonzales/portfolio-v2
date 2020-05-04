@@ -81,6 +81,7 @@ h2 {
 
 p {
   max-width: 35em; }
+  
 
 body {
   font-size: 100%;
@@ -117,15 +118,15 @@ a:hover{
 
 
 /* TYPE SPECIMEN */
-/* .mainhead {
-  font-size: 6em;
+.mainhead {
+  font-size: 4em;
   color: #000001;
   margin-bottom: 0; }
 
 .subhead {
   font-family: "merriweather", georgia, serif;
   color: rgba 0, 0, 0, 0.5;
-  margin-bottom: 1em; } */
+  margin-bottom: 1em; }
 
 /*  #BUTTONS  */
 button, .button {
@@ -255,6 +256,7 @@ header.scrolled {
   .site-header{
     padding: 1em;
     padding-left: 4em;
+    transition: background-color 0.5s;
   }
   
   .site-header.sticky {
@@ -426,13 +428,16 @@ section {
 /* Hero Sections */
 .hero {
   background-color: #000001;
-  margin: 5vw;
+  /* margin: 5vw; */
+
   background-size: cover;
   background-position: center;
   /* padding: 6em 1em; */
   text-align: center;
   color: #fff; 
 }
+
+
   
 
   .hero h2{
@@ -460,9 +465,9 @@ section {
     -ms-flex-align: center;
     align-items: center; }
   .split-crossed-left .image-block {
-    width: 50%; }
+    width: 70%; }
   .split-crossed-left .text-block {
-    width: 50%;
+    width: 30%;
     -webkit-transform: translateX(-2em);
     -ms-transform: translateX(-2em);
     transform: translateX(-2em); } }
@@ -573,7 +578,7 @@ section {
    
   
   .image_1{
-    background-image: url(../img/LunarBeans_2.jpg);
+    background-image: url(../img/LB-blu.png);
   
   }
   
@@ -609,4 +614,18 @@ section {
     font-weight: 700;
   }
   
+
   
+/* aside {
+  margin: 0;
+  padding: 0;
+  border: 0;
+  font-size: 100%;
+  font: inherit;
+ 
+  display:block;
+} */
+
+.container {
+  float: right;
+}
