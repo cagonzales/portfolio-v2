@@ -27,7 +27,7 @@
 
 <body>
 
-    <header class="site-header">
+    <header class="site-header sticky">
         <div class="site-id">
             <h1><a href="index.html">Christi Gonzales</a></h1>
         </div>
@@ -35,6 +35,7 @@
             <div class="menu-button navicon">Menu</div>
             <ul>
                 <li><a href="lunarbeans.html">LUNAR BEANS</a></li>
+                <li class="selected"><a href="terrablue.html.html">TERRA BLUE</a></li>
                 <li><a href="#">GALA</a></li>
                 <li><a href="#">OTHER WORKS</a></li>
                 <li><a href="#">ABOUT</a></li>
@@ -43,64 +44,94 @@
     </header>
 
     <section class="hero">
-        <img src="img/gb-09.png">
+
+        <img src="img/TerraBlue.png" alt="Placeholder Image">
 
     </section>
 
-    <section id="typography" data-scroll="out">
+    <section data-scroll="out">
         <div class="container">
+            <div class="row">
+                <div class="one-fourth column">
+                    <aside>
+                        <h4>CLIENT</h4>
+                        <ul>
+                            <li>School Project</li>
+                        </ul>
+                        <h4>BRANDING</h4>
+                        <ul>
+                            <li>Logo Design</li>
+                            <li>Packaging</li>
+                            <li>UI Design</li>
+                            <li>Illustration</li>
+                        </ul>
 
-            <h2 class="mainhead">Terra Blue</h2>
-            <h3 class="subhead">BRANDING PROJECT</h3>
-            <p>Terra Blue is a fictional coffee brand that comes from the moon. It
-                is inspired by civet coffee, which is also
-                known as kopi luwak. I created a fictitious cat-like creature that lives on the moon and feeds on coffee
-                cherries that are grown there. Similar to the civet, the moon-cats would digest the coffee cherries and
-                excrete
-                the beans, which would be processed and made into coffee.
-            </p>
+                    </aside>
+                </div>
 
+                <!-- <div class="one-fourth column">
+                    <h4>Objective</h4>
+                    <p>The project objective was to create and develop a brand that conveys the company's core
+                        attributes
+                        and identity.</p>
+                </div> -->
+
+                <div class="one-half column">
+                    <h2 class="mainhead">TERRA BLUE</h2>
+                    <h3 class="subhead">Scrub-a-dub-dub, Three Kids
+                        in a Tub</h3>
+                    <p>Terra Blue is a fun, light-hearted
+                        artisanal soap that’s great for the
+                        whole family. The soaps are made
+                        from all-natural ingredients that
+                        leave your skin feeling fresh and
+                        revitalized.
+                    </p>
+                </div>
+            </div>
         </div>
     </section>
 
-    <section id="layout" class="split-crossed-left" data-scroll="in">
+    <!-- <section class="split-crossed-left" data-scroll="out">
         <div class="container">
+            <div class="row">
+                <div class="one-half column image-block">
+                    <img src="https://via.placeholder.com/1500" alt="Placeholder Image">
 
-            <div class="image-block">
+                </div>
+                <div class="one-half column text-block">
+                    <h4>Objective</h4>
+                    <p>The project objective was to create and develop a brand that conveys the company's core
+                        attributes
+                        and identity.</p>
+                </div>
+            </div>
+        </div>
+    </section> -->
+
+    <section data-scroll="out">
+        <div class="container">
+            <div class="row">
+                <div class="one-whole column">
+                    <img src="img/havana-poster.png" alt="Placeholder Image">
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <section class="split-crossed-left" data-scroll="out">
+        <div class="row container">
+            <div class="one-third column image-block">
+                <img src="https://via.placeholder.com/1500" alt="Placeholder Image">
+            </div>
+            <div class="one-third column image-block">
                 <img src="https://via.placeholder.com/1500" alt="Placeholder Image">
             </div>
 
-            <div class="text-block">
-                <h4>Text on the Right</h4>
-                <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Cumque quaerat delectus consequuntur ipsa
-                    debitis,
-                    at quia
-                    mollitia placeat earum libero dignissimos nam, maiores rem modi?</p>
-            </div>
-
         </div>
     </section>
 
-    <section class="split-crossed-reversed" data-scroll="in">
-        <div class="container">
 
-            <div class="image-block">
-                <img src="https://via.placeholder.com/1500" alt="Placeholder Image">
-            </div>
-
-            <div class="text-block">
-                <h4>Text on the Left</h4>
-                <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Cumque quaerat delectus consequuntur ipsa
-                    debitis,
-                    at quia
-                    mollitia placeat earum libero dignissimos nam, maiores rem modi?</p>
-
-
-            </div>
-
-        </div>
-
-    </section>
 
 
     <footer class="site-footer">
@@ -124,14 +155,14 @@
     <script src="https://unpkg.com/scroll-out/dist/scroll-out.min.js"></script>
     <script>
         ScrollOut(
-            {
-                threshold: 0.4
-            }
+            { threshold: 0.4 }
         );
     </script>
 
     <!-- MAIN JS -->
     <script src="js/script.js"></script>
+    <script src="js/stickynav.js"></script>
+    <script src="js/header.js"></script>
 
 </body>
 
