@@ -637,10 +637,6 @@ aside h4{
   float: right;
 }
 
-/* .selected {
-  text-decoration:line-through;
-  font-weight: 700;
-} */
 
 .selected a:hover {
   text-decoration:line-through;
@@ -650,4 +646,5 @@ aside h4{
 .selected{
   text-decoration:line-through;
   font-weight: 700;
+  
 }
