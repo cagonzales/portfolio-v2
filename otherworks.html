@@ -1,0 +1,117 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="utf-8" />
+    <title>Christi Gonzales</title>
+    <meta name="description" content="A simple sassy css website starter." />
+
+    <!-- VIEWPORT FOR MOBILE -->
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+
+    <!-- ADOBE FONTS -->
+    <link rel="stylesheet" href="https://use.typekit.net/vyq5mzo.css">
+    <link rel="stylesheet" href="https://use.typekit.net/xui3dgh.css">
+
+    <!-- MAIN CSS FILE -->
+    <link href="css/style.css" rel="stylesheet" type="text/css" />
+    <link rel="stylesheet" type="text/css"
+        href="https://cdnjs.cloudflare.com/ajax/libs/fancybox/3.5.7/jquery.fancybox.min.css">
+</head>
+
+<body>
+
+    <header class="site-header sticky">
+        <div class="site-id">
+            <h1><a href="index.html">Christi Gonzales</a></h1>
+        </div>
+        <nav class="site-nav">
+            <div class="menu-button navicon">Menu</div>
+            <ul>
+                <li><a href="lunarbeans.html">LUNAR BEANS</a></li>
+                <li><a href="terrablue.html">TERRA BLUE</a></li>
+                <!-- <li><a href="#">GALA</a></li> -->
+                <li class="selected"><a href="otherworks.html">OTHER WORKS</a></li>
+                <li><a href="about.html">ABOUT</a></li>
+                <li><a href="about.html#contact">CONTACT</a></li>
+            </ul>
+        </nav>
+    </header>
+
+
+
+    <section class="about">
+        <div class="container container-body">
+            <section id="work">
+                <h3 class="category"> OTHER WORKS</h3>
+
+                <div class="row">
+
+                    <div class="one-whole column">
+                        <a data-fancybox="gallery" href="img/olympics.png" data-caption="Tokyo Olympics Pictograms"><img
+                                src="img/olympics.png" alt="Olympic Pictograms" /></a>
+                    </div>
+                </div>
+                <div class="row">
+                    <div class="one-third column">
+                        <a data-fancybox="gallery" href="img/taro-color.png" data-caption="Down to Earth Rebrand"><img
+                                src="img/taro-color.png" alt="Down to Earth redesigned logo" /></a>
+                    </div>
+
+                    <div class="one-third column">
+                        <a href="img/CSF.png" data-fancybox="gallery" data-caption="Countryside Styleframes">
+                            <img src="img/CSF.png" />
+                        </a>
+                    </div>
+
+                    <div class="one-third column">
+                        <a href="img/gala2.png" data-fancybox="gallery" data-caption="Travel Magazine">
+                            <img src="img/gala2.png" />
+                        </a>
+                    </div>
+
+
+                </div>
+            </section>
+        </div>
+
+    </section>
+
+
+
+
+
+
+
+
+
+    <!-- SMOOTH SCROLL JS -->
+    <script src="js/smooth-scroll.polyfills.min.js"></script>
+    <script>
+        var scroll = new SmoothScroll('a[href*="#"]');
+    </script>
+
+    <!-- SCROLL OUT TRIGGERED ANIMATION -->
+
+    <script src="https://unpkg.com/scroll-out/dist/scroll-out.min.js"></script>
+    <script>
+        ScrollOut(
+            { threshold: 0.4 }
+        );
+    </script>
+
+    <!-- FANCYBOX -->
+    <!-- JS -->
+    <script src="https://code.jquery.com/jquery-3.4.1.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/fancybox/3.5.7/jquery.fancybox.min.js"></script>
+
+    <script src="jquery.fancybox.min.js"></script>
+
+    <!-- MAIN JS -->
+    <script src="js/script.js"></script>
+    <script src="js/stickynav.js"></script>
+    <script src="js/header.js"></script>
+
+</body>
+
+</html>

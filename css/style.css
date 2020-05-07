@@ -435,20 +435,39 @@ section {
   place-items: center; }
 
 /* Hero Sections */
+
 .hero {
-  background-color: #000001;
+
+   height: 80vh;
+   background-size: cover;
+   background-attachment: fixed;
+   margin: 5vw;
+   display: grid;
+   place-items: center;
+ }
+ 
+   .hero h2{
+     font-family: 'merriweather';
+     font-weight: 300;
+       font-style: normal;
+       font-size: 30px;
+       text-align: center;
+   
+       padding: 0 auto;
+       /* padding-right: 3em; */
+       text-align: center;
+       position: relative;
+       color: #0e0e0e;
+   }
 
 
-  /* display: block;
-max-width: 100%; */
+
+.hero-studies {
  background-size: cover;
   background-position: center;
 }
-
-
-  
-
-  .hero h2{
+/* 
+  .hero-studies h2{
     font-family: 'merriweather';
     font-weight: 300;
       font-style: normal;
@@ -456,12 +475,14 @@ max-width: 100%; */
       text-align: center;
   
       padding-top: 5em;
-      /* padding-right: 3em; */
       text-align: center;
       position: relative;
       color: #0e0e0e;
-  }
+  } */
 
+  .hero-studies img {
+    width: 100%;
+  }
 
 /* Layout Section */
 @media (min-width: 768px) {
@@ -658,9 +679,7 @@ aside ul {
   font-weight: 700;
 }
 
-.hero img {
-  width: 100%;
-}
+
 
 
 .category{
@@ -671,3 +690,14 @@ aside ul {
   padding-top: 3em;
   padding-bottom: 1em;
 }
+
+.about{
+  padding: 6em 0;
+  display: grid;
+  place-items: center;
+  text-align: center;
+  }
+
+  #contact a{
+    font-weight: 300;
+  }
