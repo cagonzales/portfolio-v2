@@ -203,7 +203,7 @@ body {
   body {
     font-size: 112.5%; }
   .container {
-    max-width: 1050px; } }
+    max-width: 1200x; } }
 
 /* Grid */
 .row .column {
@@ -406,7 +406,7 @@ header.scrolled {
 
 .menu-button.navicon {
   font-size: 1.75em;
-  top: 1em;
+  top: .5em;
   right: 2.5em;
   text-align: center;
   width: 1em;
