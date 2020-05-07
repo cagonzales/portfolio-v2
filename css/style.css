@@ -661,3 +661,13 @@ aside ul {
 .hero img {
   width: 100%;
 }
+
+
+.category{
+  text-align: left;
+  font-family: 'roboto', sans-serif;
+  font-style: italic;
+  font-size: 2em;
+  padding-top: 3em;
+  padding-bottom: 1em;
+}
