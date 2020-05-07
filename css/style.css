@@ -40,7 +40,7 @@ body {
 /*HEADINGS*/
 
 h1{
-  font-size: 18px;
+  font-size: 15px;
   margin-bottom: 5px;
   font-family: 'all-round-gothic', sans-serif;
   font-weight: 300;
@@ -51,7 +51,7 @@ h1{
 h2, h3 {
  
   margin: .5em 0;
-  font-weight: 400; }
+  font-weight: 300; }
 
 
 
@@ -63,7 +63,7 @@ h2 {
   line-height: 1.2; }
 
   .parallax-bg h3{
-    font-family: roboto, sans-serif;
+    font-family: 'roboto', sans-serif;
     font-weight: 700;
       font-style: normal;
       font-size: 70px;
@@ -656,5 +656,8 @@ aside ul {
 .selected{
   text-decoration:line-through;
   font-weight: 700;
-  
+}
+
+.hero img {
+  width: 100%;
 }
