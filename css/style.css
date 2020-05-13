@@ -496,7 +496,7 @@ section {
   .split-crossed-left .image-block {
     width: 60%; }
   .split-crossed-left .text-block {
-    width: 30%;
+    
   
     padding-left: 4em;
     -webkit-transform: translateX(-2em);
@@ -686,6 +686,8 @@ aside ul {
   text-align: left;
   font-family: 'roboto', sans-serif;
   font-style: italic;
+  font-weight: 700;
+  color: #5a360d;
   font-size: 2em;
   padding-top: 3em;
   padding-bottom: 1em;
@@ -701,3 +703,9 @@ aside ul {
   #contact a{
     font-weight: 300;
   }
+
+  .divider {
+    background-size: cover;
+     background-position: center;
+     width: 100%;
+   }
